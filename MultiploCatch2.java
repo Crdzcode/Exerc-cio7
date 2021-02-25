@@ -13,7 +13,7 @@ public class MultiploCatch2 {
 				System.out.println("Erro ao dividir por zero");
 			}
 			catch (Throwable e) {
-				System.out.println("Ocorreu um erro");
+				System.out.println("Um erro ocorreu");
 			}
 			
 			
