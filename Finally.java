@@ -1,4 +1,4 @@
-public class Finaly {
+public class Finally {
 
 	public static void main(String[] args) {
 		int[] numeros = {4, 8, 16, 32, 64, 128};
