@@ -10,7 +10,7 @@ public class MultiploCatch3 {
 			System.out.println(numeros[i] + "/" + demon[i] + "=" + (numeros[i]/demon[i]));
 			}
 			catch (ArithmeticException | ArrayIndexOutOfBoundsException e) {
-				System.out.println("Aconteceu um erro");
+				System.out.println("Ocorreu um erro");
 			}
 			
 			
