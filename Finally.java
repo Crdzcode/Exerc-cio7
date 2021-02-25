@@ -1,6 +1,4 @@
-package finaly;
-
-public class TestandoFinaly {
+public class Finaly {
 
 	public static void main(String[] args) {
 		int[] numeros = {4, 8, 16, 32, 64, 128};
@@ -15,11 +13,11 @@ public class TestandoFinaly {
 				System.out.println("Erro ao dividir por zero");
 			}
 			catch (ArrayIndexOutOfBoundsException e) {
-				System.out.println("PosiÁ„o do Array inv·lida");
+				System.out.println("Posi√ß√£o do Array inv√°lida");
 			}
 			
 			finally {
-				System.out.println("Essa linha È impressa sempre apÛs o try ou catch");
+				System.out.println("Essa linha √© impressa sempre ap√≥s o try ou catch");
 			}
 			
 	}
