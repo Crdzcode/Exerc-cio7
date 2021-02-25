@@ -1,5 +1,3 @@
-package Ex2;
-
 public class MultiploCatch {
 
 	public static void main(String[] args) {
@@ -16,7 +14,7 @@ public class MultiploCatch {
 				System.out.println("Erro ao dividir por zero");
 			}
 			catch (ArrayIndexOutOfBoundsException e) {
-				System.out.println("PosiÁ„o do Array inv·lida");
+				System.out.println("Posi√ß√£o do Array inv√°lida");
 			}
 			
 			
