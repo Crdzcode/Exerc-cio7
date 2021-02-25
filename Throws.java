@@ -1,16 +1,16 @@
 import java.util.Scanner;
 
-public class UsandoThrows {
+public class Throws {
 
 	public static void main(String[] args) {
 		
-		System.out.println("Entre com um número decimal ");
+		System.out.println("Entre com um nÃºmero decimal ");
 		try {
 			double num = leNumero();
-			System.out.println("Você digitou" + num );
+			System.out.println("VocÃª digitou" + num );
 
 		} catch (Exception e) {
-			System.out.println("Entrada inválida");
+			System.out.println("Entrada invÃ¡lida");
 			e.printStackTrace();
 		}
 
