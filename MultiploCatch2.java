@@ -1,6 +1,4 @@
-package Ex2;
-
-public class MultiploCatchGenerico {
+public class MultiploCatch2 {
 
 	public static void main(String[] args) {
 		int[] numeros = {4, 8, 16, 32, 64, 128};
