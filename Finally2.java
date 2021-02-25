@@ -1,5 +1,3 @@
-package finaly;
-
 public class FinallyPegadinha {
 
 	public static void main(String[] args) {
@@ -16,13 +14,13 @@ public class FinallyPegadinha {
 				System.exit(0);
 			}
 			catch (ArrayIndexOutOfBoundsException e) {
-				System.out.println("PosiÁ„o do Array inv·lida");
+				System.out.println("Posi√ß√£o do Array inv√°lida");
 				System.exit(0);
 
 			}
 			
 			finally {
-				System.out.println("Essa linha È impressa sempre apÛs o try ou catch");
+				System.out.println("Essa linha √© impressa sempre ap√≥s o try ou catch");
 				System.out.println();
 
 			}
